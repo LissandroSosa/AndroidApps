@@ -30,17 +30,18 @@ public final class R {
     public static final class id {
         public static final int LinearLayout1=0x7f0a0001;
         public static final int TextView01=0x7f0a0000;
-        public static final int b_acercaDe=0x7f0a0004;
+        public static final int b_acercaDe=0x7f0a0005;
         public static final int b_configurar=0x7f0a0003;
         public static final int b_jugar=0x7f0a0002;
-        public static final int b_salir=0x7f0a0005;
-        public static final int editText1=0x7f0a0008;
-        public static final int m_acercaDe=0x7f0a000c;
-        public static final int m_config=0x7f0a000b;
-        public static final int main=0x7f0a0006;
-        public static final int tableRow1=0x7f0a0009;
-        public static final int tableRow2=0x7f0a000a;
-        public static final int textView1=0x7f0a0007;
+        public static final int b_salir=0x7f0a0006;
+        public static final int editText1=0x7f0a0009;
+        public static final int m_acercaDe=0x7f0a000d;
+        public static final int m_config=0x7f0a000c;
+        public static final int main=0x7f0a0007;
+        public static final int puntuaciones=0x7f0a0004;
+        public static final int tableRow1=0x7f0a000a;
+        public static final int tableRow2=0x7f0a000b;
+        public static final int textView1=0x7f0a0008;
     }
     public static final class layout {
         public static final int acercade=0x7f030000;
@@ -57,6 +58,7 @@ public final class R {
         public static final int configurar=0x7f060003;
         public static final int contenidoAcercaDe=0x7f060007;
         public static final int hello=0x7f060006;
+        public static final int puntuacion=0x7f060008;
         public static final int salir=0x7f060005;
         /**  <string name="action_settings">Configuracion</string> 
  <string name="action_settings">Configuracion</string> 
