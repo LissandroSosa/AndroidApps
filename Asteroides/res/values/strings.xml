@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <!-- <string name="action_settings">Configuracion</string> -->
+    <string name="titulo_aplicacion">Asteroides</string>
+    <string name="arrancar">Jugar</string>
+    <string name="configurar">Configurar</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="salir">Salir</string>
+    <string name="hello">Hello World, Asteroides! </string>
+    <string name="contenidoAcercaDe">Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
+
+</resources>
