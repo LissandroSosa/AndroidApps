@@ -9,5 +9,6 @@
     <string name="acerca_de">About</string>
     <string name="salir">Exit</string>
     <string name="hello">Hello World, Asteroids! </string>
+    <string name="puntuacion">Score</string>
 
 </resources>

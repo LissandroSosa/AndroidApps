@@ -15,6 +15,9 @@ public class Asteroides extends Activity {
 
 	private Button bAcercaDe;
 	private Button bSalir;
+	private Button bPuntuacion;
+	
+	public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,15 @@ public class Asteroides extends Activity {
 		// cuando se presiona el boton salir, sale de la actividad
 		bSalir = (Button) findViewById(R.id.b_salir);
 		bSalir.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
+		
+		bPuntuacion = (Button) findViewById(R.id.b_puntuacion);
+		bPuntuacion.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
@@ -74,6 +86,11 @@ public class Asteroides extends Activity {
 
 	public void lanzarPreferencias(View view) {
 		Intent i = new Intent(this, Preferencias.class);
+		startActivity(i);
+	}
+	
+	public void lanzarPuntuaciones(View view){
+		Intent i = new Intent(this, Puntuaciones.class);
 		startActivity(i);
 	}
 

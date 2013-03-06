@@ -33,12 +33,12 @@ public final class R {
         public static final int b_acercaDe=0x7f0a0005;
         public static final int b_configurar=0x7f0a0003;
         public static final int b_jugar=0x7f0a0002;
+        public static final int b_puntuacion=0x7f0a0004;
         public static final int b_salir=0x7f0a0006;
         public static final int editText1=0x7f0a0009;
         public static final int m_acercaDe=0x7f0a000d;
         public static final int m_config=0x7f0a000c;
         public static final int main=0x7f0a0007;
-        public static final int puntuaciones=0x7f0a0004;
         public static final int tableRow1=0x7f0a000a;
         public static final int tableRow2=0x7f0a000b;
         public static final int textView1=0x7f0a0008;
@@ -46,6 +46,7 @@ public final class R {
     public static final class layout {
         public static final int acercade=0x7f030000;
         public static final int main=0x7f030001;
+        public static final int puntuaciones=0x7f030002;
     }
     public static final class menu {
         public static final int asteroides=0x7f090000;

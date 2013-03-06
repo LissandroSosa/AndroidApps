@@ -34,7 +34,7 @@
         android:text="@string/configurar" />
 
     <Button
-        android:id="@+id/puntuaciones"
+        android:id="@+id/b_puntuacion"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:text="@string/puntuacion" />
