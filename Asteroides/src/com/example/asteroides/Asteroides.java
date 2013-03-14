@@ -44,12 +44,13 @@ public class Asteroides extends Activity {
 			}
 		});
 		
+		// cuando se prsiona el boton de puntuaciones.
 		bPuntuacion = (Button) findViewById(R.id.b_puntuacion);
 		bPuntuacion.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				finish();
+				lanzarPuntuaciones(null);
 			}
 		});
 

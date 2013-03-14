@@ -2,7 +2,10 @@ package com.example.asteroides;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.asteriodes.R;
 
@@ -13,9 +16,20 @@ public class Puntuaciones extends ListActivity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.puntuaciones);
-		setListAdapter(new ArrayAdapter<String>(this,
-				android.R.layout.simple_list_item_1,
-				Asteroides.almacen.listaPuntuaciones(10)));
+//		setListAdapter(new ArrayAdapter<String>(this,
+//				R.layout.elemento_lista,
+//				R.id.titulo,
+//				Asteroides.almacen.listaPuntuaciones(10)));
+		
+		setListAdapter(new MiAdaptador(this, Asteroides.almacen.listaPuntuaciones(10)));
+	}
+	
+	@Override
+	protected void onListItemClick(ListView listView, View view, int position, long id){
+		super.onListItemClick(listView, view, position, id);
+		Object o = getListAdapter().getItem(position);
+		
+		Toast.makeText(this, "Seleccion:" + Integer.toString(position) + " - " + o.toString(), Toast.LENGTH_LONG).show();
 	}
 
 }

@@ -29,7 +29,7 @@
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity android:name="com.example.asteroides.Preferencias" android:label="Preferencias"></activity>
-        <activity android:name="com.example.asteroides.Puntuaciones" android:label="@string/puntuacion" android:theme="@style/AppTheme"></activity>
+        <activity android:name="com.example.asteroides.Puntuaciones" android:label="@string/puntuacion"></activity>
     </application>
 
 </manifest>
