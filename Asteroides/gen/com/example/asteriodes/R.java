@@ -38,14 +38,13 @@ public final class R {
         public static final int b_jugar=0x7f0a0005;
         public static final int b_puntuacion=0x7f0a0007;
         public static final int b_salir=0x7f0a0009;
-        public static final int editText1=0x7f0a000c;
         public static final int icono=0x7f0a0001;
-        public static final int m_acercaDe=0x7f0a0010;
-        public static final int m_config=0x7f0a000f;
+        public static final int m_acercaDe=0x7f0a000f;
+        public static final int m_config=0x7f0a000e;
         public static final int main=0x7f0a000a;
         public static final int subtitulo=0x7f0a0003;
-        public static final int tableRow1=0x7f0a000d;
-        public static final int tableRow2=0x7f0a000e;
+        public static final int tableRow1=0x7f0a000c;
+        public static final int tableRow2=0x7f0a000d;
         public static final int textView1=0x7f0a000b;
         public static final int titulo=0x7f0a0002;
     }
@@ -66,12 +65,18 @@ public final class R {
         public static final int configurar=0x7f060003;
         public static final int contenidoAcercaDe=0x7f060007;
         public static final int hello=0x7f060006;
+        public static final int no_puntuaciones=0x7f06000a;
+        public static final int p_fragmentos=0x7f06000f;
+        public static final int p_fragmentos_summary=0x7f060010;
+        public static final int p_graficos=0x7f06000d;
+        public static final int p_graficos_summary=0x7f06000e;
+        public static final int p_musica=0x7f06000b;
+        public static final int p_musica_summary=0x7f06000c;
+        public static final int punt_texto=0x7f060011;
         public static final int puntuacion=0x7f060008;
         public static final int salir=0x7f060005;
-        /**  <string name="action_settings">Configuracion</string> 
- <string name="action_settings">Configuracion</string> 
-         */
         public static final int titulo_aplicacion=0x7f060001;
+        public static final int titulo_puntuaciones=0x7f060009;
     }
     public static final class style {
         /** 

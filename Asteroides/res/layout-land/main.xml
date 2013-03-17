@@ -14,21 +14,11 @@
         android:textSize="25sp" />
 
     <TableLayout
-        android:layout_width="610dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         android:stretchColumns="*" >
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number" >
-
-            <requestFocus />
-        </EditText>
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -45,7 +35,9 @@
                 android:id="@+id/b_configurar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="lanzarPreferencias"
                 android:text="@string/configurar" />
+
         </TableRow>
 
         <TableRow
@@ -61,11 +53,19 @@
                 android:text="@string/acerca_de" />
 
             <Button
-                android:id="@+id/b_salir"
+                android:id="@+id/b_puntuacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/salir" />
+                android:text="@string/puntuacion" />
+
         </TableRow>
+
+        <Button
+            android:id="@+id/b_salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salir" />
+
     </TableLayout>
 
 </LinearLayout>

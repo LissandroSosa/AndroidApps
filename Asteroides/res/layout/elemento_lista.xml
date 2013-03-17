@@ -27,6 +27,6 @@
         android:layout_below="@id/titulo"
         android:layout_toRightOf="@id/icono"
         android:gravity="center"
-        android:text="Otro Texto" />
+        android:text="@string/punt_texto" />
 
 </RelativeLayout>

@@ -2,13 +2,22 @@
 <resources>
 
     <string name="app_name">Asteroids</string>
-    <!-- <string name="action_settings">Configuracion</string> -->
     <string name="titulo_aplicacion">Asteroids</string>
     <string name="arrancar">Play</string>
     <string name="configurar">Settings</string>
     <string name="acerca_de">About</string>
     <string name="salir">Exit</string>
     <string name="hello">Hello World, Asteroids! </string>
+    <string name="contenidoAcercaDe">This program has been developed as an example in the Android course to demonstrate how to launch new activity from the main activity.</string>
     <string name="puntuacion">Score</string>
+    <string name="titulo_puntuaciones">Rating</string>
+    <string name="no_puntuaciones">No Rating</string>
+    <string name="p_musica">Play Music</string>
+    <string name="p_musica_summary">Background music is played</string>
+    <string name="p_graficos">Graphic Type</string>
+    <string name="p_graficos_summary">Choose the graphics rendering</string>
+    <string name="p_fragmentos">Number of Fragments</string>
+    <string name="p_fragmentos_summary">How many pieces is divided an asteroid</string>
+    <string name="punt_texto">Another Text</string>
 
 </resources>
