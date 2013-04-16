@@ -16,6 +16,7 @@ public class Asteroides extends Activity {
 	private Button bAcercaDe;
 	private Button bSalir;
 	private Button bPuntuacion;
+	private Button bJugar;
 	
 	public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
 
@@ -24,6 +25,17 @@ public class Asteroides extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
+		
+		bJugar = (Button) findViewById(R.id.b_jugar);
+		bJugar.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				lanzarJuego(null);				
+			}
+		});
+		
+		
 		// Cuando se presiona el boton Acerca de, se llama al metodo
 		// lanzarAcercaDe
 		bAcercaDe = (Button) findViewById(R.id.b_acercaDe);
@@ -78,6 +90,12 @@ public class Asteroides extends Activity {
 		}
 		return true;
 		/** true -> consumimos el item, no se propaga */
+	}
+	
+	//Metodo que inicia la actividad Juego, donde esta definido el juego.
+	public void lanzarJuego(View view){
+		Intent i = new Intent(this, Juego.class);
+		startActivity(i);
 	}
 
 	public void lanzarAcercaDe(View view) {
